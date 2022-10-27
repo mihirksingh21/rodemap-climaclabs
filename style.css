@@ -1,0 +1,29 @@
+.container {
+    position: relative;
+    width: 100%;
+  
+  }
+.container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .container .btn {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #1fc050;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    text-align: center;
+    margin: 4px 2px;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .btn:hover {opacity: 1}
